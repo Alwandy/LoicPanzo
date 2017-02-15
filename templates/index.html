@@ -1,0 +1,239 @@
+{% load staticfiles %}
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Loic Panzo Fitness</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <style>
+        </style>
+        <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css" />
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
+   
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.js"></script>
+        <script src="{% static 'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Panzo Fitness</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+		    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#Home">Home</a></li>
+	  <li><a href="#About">About</a></li>
+      <li><a href="#">Shop</a></li>
+	  <li><a data-toggle="modal" href="#personalTraining">Personal Training</a></li>
+	  <li><a href="#Pictures">Pictures</a></li>
+	  <li><a href="#">Contact me</a></li>
+    </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+
+
+    </nav>
+            <div class="textoverlay col-md-12" id="Home"><h1 style="font-size:60px; font-family: 'Paytone One', sans-serif;"class="text-center">Become a beast live like a beast</h1>
+        <blockquote style="font-size:15px; font-family: 'Roboto', sans-serif; border-left:none;" class="text-center">Loic 12 weeks program transformed me completely and now I am more happier than ever!<br> - Written by<cite title="Source Title">John Doe</cite></blockquote>
+        </div>
+        <div class="navbanner overlay"></div>
+        
+        
+<div class="container" id="box">
+<div class="row" >
+<div class="col-md-12" style="margin:0px;" id="About">
+
+<h1 style="padding-left:50px; font-size:60px;">About</h1>
+<p style="padding-left:70px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a nisi nibh. Aenean vitae ultricies ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Vestibulum euismod non orci nec auctor. Sed pulvinar egestas mi ut consequat. Maecenas lobortis, odio non pellentesque dictum, sapien mauris volutpat sem, id rutrum elit urna id tortor. Aliquam venenatis metus vel accumsan vehicula. Phasellus hendrerit nibh in nisl efficitur porttitor. Suspendisse nec leo vitae magna posuere pulvinar. Vestibulum sapien nisl, mattis quis est eget, convallis faucibus turpis. Donec sagittis auctor pretium. Vivamus facilisis ligula dolor, eget sollicitudin justo tempus sed.<br></p>
+<p style="padding-left:70px;">
+Sed id massa viverra nisl fermentum gravida ac quis purus. Nullam ornare a felis vel imperdiet. Proin eget auctor erat, in semper velit. Vestibulum eu commodo dui. Curabitur ornare porttitor quam, at viverra sapien eleifend eu. Ut varius tellus in diam pharetra, convallis congue mi viverra. Fusce facilisis, felis eu bibendum finibus, dui tortor tempor nibh, vel dignissim lectus sapien pretium mi. Ut ut interdum eros. Sed ornare, leo vel eleifend volutpat, arcu odio facilisis mi, et varius tellus augue sed turpis. Proin dolor nisl, sodales in tristique sed, tincidunt non eros. Vestibulum non sapien eu eros congue mattis id id ipsum. Aenean ac odio sed felis venenatis volutpat id sit amet ipsum. Proin sed fermentum mauris. Mauris sollicitudin risus ante, quis auctor elit sollicitudin at. Proin mauris felis, fermentum nec feugiat quis, imperdiet et est. Etiam vulputate sem at consequat varius.<br></p>
+<p style="padding-left:70px;">
+Mauris eu eros neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc a urna id nibh condimentum accumsan. Fusce interdum gravida ultricies. Integer sed semper eros, nec tincidunt justo. Nullam rhoncus luctus sapien, nec malesuada tellus lacinia vitae. Praesent non tellus et lorem congue auctor vel eu odio. Vivamus et nisi id augue cursus cursus. Vivamus tristique tristique augue. Vestibulum ut imperdiet ante. Cras malesuada nibh auctor eros congue, eu cursus justo feugiat. Donec feugiat ultrices mauris. Sed a pellentesque est. Quisque hendrerit diam porta dapibus ornare. Nunc aliquet vulputate tempor.<br></p>
+<p style="padding-left:70px;">
+Phasellus varius ullamcorper tellus. Vestibulum viverra urna ligula, sed viverra turpis viverra et. Mauris ultrices congue sem, eu consequat libero suscipit ut. Donec et odio commodo metus ornare sollicitudin. Proin sollicitudin iaculis neque. Praesent porttitor porta mi vitae tempus. Phasellus eu magna turpis. Cras viverra metus ac sapien maximus semper. Aliquam accumsan ornare leo eget placerat. Curabitur at convallis lorem. Phasellus condimentum diam ut ullamcorper vehicula. Nunc porttitor, lorem vel semper egestas, nisi est pharetra libero, non hendrerit orci magna et ex. Vivamus varius consectetur mi, eu efficitur nisl iaculis quis.<br></p>
+<p style="padding-left:70px;">
+Pellentesque nec gravida quam. Cras eu scelerisque tellus, ac tincidunt turpis. Mauris sed consectetur tortor, sit amet ultrices enim. Vivamus sed lectus libero. Nullam commodo sit amet tortor eget molestie. In hac habitasse platea dictumst. Vestibulum ex odio, tempus eu rutrum a, ultricies in ipsum. Vestibulum a consectetur sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+
+</div></div></div>
+<div class="container" id="box2">
+<div class="row">
+<iframe id="ytplayer" type="text/html" width="100%" height="500" src="https://www.youtube.com/embed/HBWCG4cM6-A" frameborder="0"  allowfullscreen></iframe>
+</div></div>
+
+<div class="container" id="box">
+<div class="row">
+<div class="col-md-12" style="margin:0px;" id="Pictures">
+
+<h1 style="padding-left:50px; font-size:60px;">Pictures</h1>
+		<div class='list-group gallery'>
+            <div class='col-sm-4 col-xs-6 col-md-4 col-lg-4'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/16110926_316189088777539_3920236768133120000_n.jpg">
+                    <img class="img-responsive" alt=""  src="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/16110926_316189088777539_3920236768133120000_n.jpg" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-4 col-lg-4'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/15877101_390599077957293_4000553584281255936_n.jpg">
+                    <img class="img-responsive" alt=""  src="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/15877101_390599077957293_4000553584281255936_n.jpg" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-4 col-lg-4'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/15337253_637557343082950_7613810399611191296_n.jpg">
+                    <img class="img-responsive" alt="" src="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/15337253_637557343082950_7613810399611191296_n.jpg" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-4 col-lg-4'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/14714575_1161561970630020_3087055044474830848_n.jpg">
+                    <img class="img-responsive" alt="" src="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/14714575_1161561970630020_3087055044474830848_n.jpg" />
+                </a>
+            </div> <!-- col-6 / end -->
+            <div class='col-sm-4 col-xs-6 col-md-4 col-lg-4'>
+                <a class="fancybox thumbnail" rel="ligthbox" href="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/15306585_1869006056651715_2832467293181575168_n.jpg">
+                    <img class="img-responsive" alt="" src="https://scontent-frt3-1.cdninstagram.com/t51.2885-15/e35/15306585_1869006056651715_2832467293181575168_n.jpg" />
+                </a>
+            </div> <!-- col-6 / end -->
+            
+        </div> <!-- list-group / end -->
+
+</div></div></div>
+
+
+<footer>
+<center>Work in progress</center>
+</footer>
+
+
+
+<!-- Modal Personal Training -->
+<div class="modal fade" id="personalTraining" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Personal Training - Contact Loic</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+             <div class="form-group">
+    <label for="Fullname">Fullname</label>
+    <input type="text" class="form-control" id="Fullname" placeholder="John Doe / Jane Doe">
+  </div> 
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="Phonenumber">Phone number</label>
+    <input type="text" class="form-control" id="Phonenumber" placeholder="+353xxxxxxx">
+  </div> 
+  <div class="form-group">
+    <label for="Goal">Your goal?</label>
+    <input type="text" class="form-control" id="Goal" placeholder="Strength / Fat loss etc.">
+  </div> 
+
+  
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+        <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+
+        <script src="{% static 'js/main.js' %}"></script>
+         <script src="{% static 'js/instafeed.min.js' %}"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+		<script>
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+		</script>
+
+   <script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '184860233',
+        accessToken: 'YOUR_ACCESS_TOKEN'
+    });
+    userFeed.run();
+</script>
+
+<script>
+
+$(document).ready(function(){
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none",
+        padding:0, margin:0,
+        
+        beforeShow: function () {
+        $("body *:not(.fancybox-overlay, .fancybox-overlay *)").addClass("blur");
+        },
+        afterClose: function () {
+            $("body *:not(.fancybox-overlay, .fancybox-overlay *)").removeClass("blur");
+        }
+        
+    });
+});
+
+</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    </body>
+</html>
